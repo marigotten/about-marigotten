@@ -1,5 +1,6 @@
 <template>
-  <div class="side-nav">
+<!-- <el-menu> -->
+    <div class="side-nav">
     <li class="side-nav__list">
       <a class="side-nav__item" href="#bakutan">
       <div class="icon-area">
@@ -82,18 +83,23 @@
     
   </div>
 
+<!-- </el-menu> -->
 </template>
 <style lang="scss">
 @import "@/assets/sass/_mixin";
 
 .side-nav {
   text-align: left;
+  padding-left: 1rem;
   @include mq(lg) {
     padding-left: 6rem;
   }
   &__list {
+    max-width: 12rem;
+    /* display: inline-block; */
     list-style: none;
     margin-bottom: 0.4rem;
+    /* flex-direction: column; */
   }
   &__item {
     color: #333;
@@ -104,17 +110,17 @@
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
     p {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
-    /* &:hover {
+    &:hover {
       opacity: .6;
-    } */
+    }
     @include mq(lg) {
       &:hover {
       background-color: #ECF8FE;
       }
     }
-
+}
   .icon-area {
     width: 4rem;
     height: 4rem;
@@ -128,13 +134,12 @@
               background-color: #ECF8FE;
   }
   }
-  }
-}
 .mb-none {
   display: none;
   @include mq(lg) {
     display: inline-block;
   }
+}
 }
 </style>
 

@@ -1,4 +1,5 @@
 <template>
+
   <header>
     <span class="iconify" data-icon="twemoji:woman-singer-dark-skin-tone" data-inline="false"></span>
     <h1>わたしのりれき</h1>
@@ -24,4 +25,5 @@ header {
     margin: 0 auto;
   }
 }
+
 </style>

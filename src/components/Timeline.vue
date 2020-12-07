@@ -3,7 +3,14 @@
     <div class="block">
       <el-timeline>
         <el-timeline-item id="bakutan" timestamp="爆誕" placement="top" class="timeline">
-          <el-row>
+            <div class="timeline__cover">
+              <span class="iconify" data-icon="twemoji:baby" data-inline="false"></span>
+            </div>
+            <div>
+              <p>宮崎県宮崎市に生まれる。「マリ」か「マリコ」で迷ったらしいが、国際化社会を見据えて「マリ」と名付けたらしい。</p>
+              <p>誕生日が同じ人は高田賢三、パーク・マンサー、グッチ裕三</p>
+            </div>
+          <!-- <el-row>
             <el-col :span="24" class="timeline__cover">
               <span class="iconify" data-icon="twemoji:baby" data-inline="false"></span>
             </el-col>
@@ -11,8 +18,9 @@
               <p>宮崎県宮崎市に生まれる。「マリ」か「マリコ」で迷ったらしいが、国際化社会を見据えて「マリ」と名付けたらしい。</p>
               <p>誕生日が同じ人は高田賢三、パーク・マンサー、グッチ裕三</p>
             </el-col>
-          </el-row>
+          </el-row> -->
         </el-timeline-item>
+
         <el-timeline-item id="kids" timestamp="保育園" placement="top" class="timeline">
           <el-row>
             <el-col :span="24" class="timeline__cover">
@@ -117,7 +125,7 @@
         <el-timeline-item id="college" timestamp="大学" placement="top" class="timeline">
           <el-row>
             <el-col :span="24" class="timeline__cover">
-              <span class="iconify" data-icon="twemoji:backpack" data-inline="false"></span>
+        <span class="iconify" data-icon="twemoji:graduation-cap" data-inline="false"></span>
             </el-col>
             <el-col :span="24">
               <p>とある一人旅がきっかけで英語を学びたくなり、地元の国際大学へ。</p>
@@ -128,7 +136,10 @@
               <p>2013年には念願の留学！「昼からビールが飲みたい」「好きなバンドのギグに行きたい」という理由でイギリスを選択。そのバンドのチケットは、人気すぎてバルセロナまで遠征する羽目に。</p>
               <img src="../static/spain.jpg" alt="">
               <small>バルセロナで発見したオブジェ</small>
+
               <p>年末年始にはヨーロッパ一人旅を決行。トラブル続きだったが現地の人々の優しさに救われた。大学生活と合わせて、非常に濃い5年間でした。</p>
+              <img src="../static/germany.jpg" alt="">
+              <small>ドイツは人も食事も風景も最高でした</small>
               <div class="tag">
                 <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
                 <el-button type="success" size="mini" plain round>#Arctic Monkeys</el-button>
@@ -169,9 +180,11 @@
             </el-col>
             <el-col :span="24">
               <p>「もっとお客様と密にコミュニケーションをとりたい！」「別の東京らしさも体感したい」と考えるようになり、自転車メーカーの新事業部立ち上げスタッフの募集を見つけ、転職。</p>
-              <p>大学で学んだ英語、モラトリアム時代に磨いたバリスタスキル、生来の好奇心を存分に発揮。</p>
               <img src="../static/ynk.jpg" alt="">
               <small>職場のあった台東区・谷中。穏やかでゆったりした街</small>
+              <p>大学で学んだ英語、モラトリアム時代に磨いたバリスタスキル、生来の好奇心を存分に発揮。</p>
+              <img src="../static/bike-tour.jpeg" alt="">
+              <small>台湾の自転車工場へ見学に</small>
 
               <p>Myバイクも購入し、自転車通勤やポタリングの楽しさに目覚める。</p>
               <p>この頃担当した<a target="_blank"
@@ -218,15 +231,19 @@
 </template>
 <style lang="scss" scoped>
 @import "@/assets/sass/_mixin";
-  .timeline-wrapper {
+  /* .timeline-wrapper {
     text-align: left;
     display: block;
     margin: 0 auto;
-  }
+  } */
 
   .timeline {
     padding-top: 20rem;
+    margin-top: -20rem;
     padding-bottom: 8rem;
+    &:nth-child(1) {
+      margin-top: 0;
+    }
 
     &__cover .iconify {
       display: block;
@@ -268,4 +285,5 @@
     opacity: .6;
     margin-bottom: 4rem;
   }
+
 </style>
