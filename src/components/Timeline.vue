@@ -93,7 +93,9 @@
                     data-inline="false"></span>+81</el-button>
               </el-link>
               <el-link href="http://www.tadanoriyokoo.com/" target="_blank" :underline="false" type="success">
-                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:man-in-lotus-position-medium-skin-tone" data-inline="false"></span>横尾忠則</el-button>
+                <el-button type="success" size="mini" round><span class="iconify"
+                    data-icon="twemoji:man-in-lotus-position-medium-skin-tone" data-inline="false"></span>横尾忠則
+                </el-button>
               </el-link>
               <el-button type="success" size="mini" plain round>#LINKIN PARK</el-button>
               <el-button type="success" size="mini" plain round>#GO!GO!7188</el-button>
@@ -114,10 +116,15 @@
             <p>バリスタの腕が上がり、常連さんから「おいしい！」と言ってもらえるのが嬉しかったなぁ。</p>
             <p>休日は近くのライブハウスでロックを聴きまくっていました。</p>
             <div class="tag">
+
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round>#スーパーカー</el-button>
-              <el-button type="success" size="mini" plain round>#basebment jaxx</el-button>
-              <el-button type="success" size="mini" plain round>#ポッドキャスト</el-button>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://youtu.be/LNxjL0wKvCc">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
+                    data-inline="false"></span>スーパーカー</el-button>
+              </el-link>
+              <el-button type="success" size="mini" plain round disabled>#basebment jaxx</el-button>
+              <el-button type="success" size="mini" plain round disabled>#ポッドキャスト</el-button>
 
               <el-link class="tag__link" type="success" :underline="false" target="_blank"
                 href="https://youtu.be/PsD0NpFSADM">
@@ -149,12 +156,15 @@
             <small>ドイツは人も食事も風景も最高でした</small>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-                            <el-link href="https://youtu.be/c-wwK5QVv1Y" target="_blank" :underline="false" type="success">
+              <el-link href="https://youtu.be/c-wwK5QVv1Y" target="_blank" :underline="false" type="success">
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
                     data-inline="false"></span>Arctic Monkeys</el-button>
               </el-link>
-              <el-button type="success" size="mini" plain round>#Massive Attack</el-button>
-              <el-button type="success" size="mini" plain round>#進撃の巨人</el-button>
+              <el-link href="https://youtu.be/Vi76bxT7K6U" target="_blank" :underline="false" type="success">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
+                    data-inline="false"></span>Massive Attack</el-button>
+              </el-link>
+              <el-button type="success" size="mini" plain round disabled>#進撃の巨人</el-button>
               <el-link class="tag__link" type="success" :underline="false" target="_blank"
                 href="https://www.youtube.com/watch?v=Yx0bZxSH7uI">
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
@@ -174,19 +184,21 @@
             <p>「一度は東京に行かなきゃダメだ」と繰り返していた父の教えが忘れられず、27にして遂に上京を果たす。</p>
             <p>同じ東京なのに、東西や路線ごとにカルチャーが栄えているのが面白いなと思い、古地図や地名に興味が湧きだしたのはこの頃。</p>
             <p>アートと英語、どちらも使える仕事に就き、大都会の大規模な展覧会に圧倒されるも、刺激的な日々を過ごす。一番印象に残っているのは<a class="text-link" target="_blank"
-                href="https://www.fosterandpartners.com/">Foster + Partners展<span class="iconify" data-icon="octicon:link-external-24" data-inline="false"></span></a></p>
+                href="https://www.fosterandpartners.com/">Foster + Partners展<span class="iconify"
+                  data-icon="octicon:link-external-24" data-inline="false"></span></a></p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round>#バックミンスター・フラー</el-button>
-              <el-button type="success" size="mini" plain round>#まっちゃん</el-button>
-              <el-button type="success" size="mini" plain round>#佐藤雅彦</el-button>
+              <el-button type="success" size="mini" plain round disabled>#バックミンスター・フラー</el-button>
+              <el-button type="success" size="mini" plain round disabled>#まっちゃん</el-button>
+              <el-button type="success" size="mini" plain round disabled>#佐藤雅彦</el-button>
 
               <el-link class="tag__link" type="success" :underline="false" target="_blank" href="http://www.haluta.jp/">
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:chair"
                     data-inline="false"></span>haluta</el-button>
               </el-link>
               <el-link class="tag__link" type="success" :underline="false" target="_blank" href="https://nug.jp/ja">
-                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:classical-building" data-inline="false"></span>nanzuka</el-button>
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:classical-building"
+                    data-inline="false"></span>nanzuka</el-button>
               </el-link>
             </div>
           </el-col>
@@ -207,15 +219,16 @@
             <small>台湾の自転車工場へ見学に</small>
 
             <p>Myバイクも購入し、自転車通勤やポタリングの楽しさに目覚める。</p>
-            <p>この頃担当した<a class="text-link" target="_blank"
-                href="https://tokyobikerentals.com/jp/cityguide">自社メディア<span class="iconify" data-icon="octicon:link-external-24" data-inline="false"></span></a>の執筆やSNS運用がきっかけで、「創る」ことへの欲が再燃。</p>
+            <p>この頃担当した<a class="text-link" target="_blank" href="https://tokyobikerentals.com/jp/cityguide">自社メディア<span
+                  class="iconify" data-icon="octicon:link-external-24"
+                  data-inline="false"></span></a>の執筆やSNS運用がきっかけで、「創る」ことへの欲が再燃。</p>
             <p>友人のデザイナーやプログラマーの勧めもあり、WEB制作の勉強を始める。そしてハマる。</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round>#ラジオ</el-button>
-              <el-button type="success" size="mini" plain round>#ピラティス</el-button>
-              <el-button type="success" size="mini" plain round>#筋膜リリース</el-button>
-              <el-button type="success" size="mini" plain round>#皇居周り</el-button>
+              <el-button type="success" size="mini" plain round disabled>#ラジオ</el-button>
+              <el-button type="success" size="mini" plain round disabled>#ピラティス</el-button>
+              <el-button type="success" size="mini" plain round disabled>#筋膜リリース</el-button>
+              <el-button type="success" size="mini" plain round disabled>#皇居周り</el-button>
             </div>
           </el-col>
         </el-row>
@@ -234,11 +247,11 @@
             <p>スマホ用ページの実装が主のため、もっと様々なプロジェクトに携わりたいと思い、転職活動中です！</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>最近の胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round>#WebGL</el-button>
-              <el-button type="success" size="mini" plain round>#イカとタコ</el-button>
-              <el-button type="success" size="mini" plain round>#一冊の本</el-button>
-              <el-button type="success" size="mini" plain round>#田中みな実のあったかタイム</el-button>
-              <el-button type="success" size="mini" plain round>#夜の永田町</el-button>
+              <el-button type="success" size="mini" plain round disabled>#WebGL</el-button>
+              <el-button type="success" size="mini" plain round disabled>#イカとタコ</el-button>
+              <el-button type="success" size="mini" plain round disabled>#一冊の本</el-button>
+              <el-button type="success" size="mini" plain round disabled>#田中みな実のあったかタイム</el-button>
+              <el-button type="success" size="mini" plain round disabled>#夜の永田町</el-button>
             </div>
           </el-col>
         </el-row>
@@ -298,12 +311,14 @@
     }
   }
 
-.text-link {
-  color: #409EFF;
-  &:hover {
-    opacity: .6;
+  .text-link {
+    color: #409EFF;
+
+    &:hover {
+      opacity: .6;
+    }
   }
-}
+
   small {
     display: block;
     font-size: 1rem;
