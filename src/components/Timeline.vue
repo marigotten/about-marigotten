@@ -41,7 +41,7 @@
         <el-timeline-item id="elementary" timestamp="小学校" placement="top" class="timeline">
           <el-row>
             <el-col :span="24" class="timeline__cover">
-              <span class="iconify" data-icon="twemoji:books" data-inline="false"></span>
+              <span class="iconify" data-icon="twemoji:name-badge" data-inline="false"></span>
             </el-col>
             <el-col :span="24">
               <p>この頃からお絵かきに目覚める。親戚の漫画コレクションや図鑑を読み漁る日々。</p>
