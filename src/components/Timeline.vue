@@ -231,11 +231,9 @@
 </template>
 <style lang="scss" scoped>
 @import "@/assets/sass/_mixin";
-  /* .timeline-wrapper {
-    text-align: left;
-    display: block;
-    margin: 0 auto;
-  } */
+  .timeline-wrapper {
+    padding: 2rem;
+  }
 
   .timeline {
     padding-top: 20rem;
