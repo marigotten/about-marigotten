@@ -91,7 +91,7 @@
 .side-nav {
   text-align: left;
   padding-left: 1rem;
-  @include mq(lg) {
+  @include mq(xl) {
     padding-left: 6rem;
   }
   &__list {
@@ -115,7 +115,7 @@
     &:hover {
       opacity: .6;
     }
-    @include mq(lg) {
+    @include mq(xl) {
       &:hover {
       background-color: #ECF8FE;
       }
@@ -136,7 +136,7 @@
   }
 .mb-none {
   display: none;
-  @include mq(lg) {
+  @include mq(xl) {
     display: inline-block;
   }
 }

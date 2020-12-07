@@ -232,7 +232,7 @@
 <style lang="scss" scoped>
 @import "@/assets/sass/_mixin";
   .timeline-wrapper {
-    padding: 2rem;
+    /* padding: 2rem; */
   }
 
   .timeline {
@@ -248,7 +248,7 @@
       margin: 0 auto 1.2rem;
       font-size: 4.8rem;
       filter: drop-shadow(0 2px 2px rgba(0,0,0,.2));
-        @include mq(lg) {
+        @include mq(xl) {
       font-size: 6rem;
       margin-bottom: 2rem;
   }

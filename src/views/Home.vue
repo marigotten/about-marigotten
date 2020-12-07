@@ -51,7 +51,7 @@
       left: 0;
       padding-top: 16rem;
 
-      @include mq(lg) {
+      @include mq(xl) {
         margin-left: 12rem;
       }
 
@@ -60,7 +60,7 @@
     .main {
       margin-left: 6rem;
 
-      @include mq(lg) {
+      @include mq(xl) {
         margin-left: 12rem;
       }
     }
@@ -82,4 +82,7 @@
   }
 }
 
+img {
+  width: 100%;
+}
 </style>
