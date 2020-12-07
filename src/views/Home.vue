@@ -1,22 +1,19 @@
 <template>
   <div id="home">
-    <Header />
-    <el-container class="wrapper">
+      <Header />
 
-      <el-main>
-        <el-col :xs="4" :md="6" class="side">
+<el-container style="height: 900px; border: 1px solid #eee;" class="wrapper">
           <SideNav />
-        </el-col>
-
-        <el-col :xs="20" :md="18" class="main">
-          <Timeline />
-        </el-col>
-
+    <el-container>
+      <el-main>
+        <Timeline />
       </el-main>
-
     </el-container>
+    </el-container>
+
     <el-footer>
-&copy; 2020 mari goto<a href=""><span class="iconify" data-icon="brandico:github" data-inline="false"></span></a></el-footer>
+      &copy; 2020 marigotten<a target="_blank" href="https://github.com/marigotten"><span class="iconify" data-icon="brandico:github" data-inline="false"></span></a>
+    </el-footer>
   </div>
 </template>
 
@@ -39,20 +36,16 @@
 
   #home {
     .wrapper {
-      position: relative;
-      margin-top: 20rem;
-      padding-top: -20rem;
-
+padding-top: 16rem;
+      @include mq(lg) {
+        padding-top: 24rem;
+      }
     }
 
     .side {
-      position: fixed;
-      top: 0;
-      left: 0;
-      padding-top: 16rem;
-
+      width: 3.6rem;
       @include mq(xl) {
-        margin-left: 12rem;
+        width: 20%;
       }
 
     }
@@ -67,22 +60,28 @@
   }
 
   footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #f8f9fa;
     text-align: center;
     font-size: 1.2rem;
     line-height: 60px;
   }
-  svg[data-icon="brandico:github"] {
-  color: #555;
-  font-size: 1.2rem;
-  margin-left: 2rem;
-  vertical-align: -0.2rem;
-  &:hover {
-    opacity: .6;
-  }
-}
 
-img {
-  width: 100%;
-}
+  svg[data-icon="brandico:github"] {
+    color: #555;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    vertical-align: -0.2rem;
+
+    &:hover {
+      opacity: .6;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
 </style>
