@@ -2,7 +2,7 @@
 
   <header>
     <span class="iconify" data-icon="twemoji:woman-singer-dark-skin-tone" data-inline="false"></span>
-    <h1>わたしのりれき</h1>
+    <h1>the story of marigotten</h1>
   </header>
 </template>
 <style lang="scss" scoped>
@@ -17,6 +17,7 @@ header {
   text-align: center;
   background-color: #D9ECFF;
   padding: 2.4rem 1.6rem 4rem;
+  margin-bottom: 2.4rem;
 
   h1 {
     text-transform: uppercase;

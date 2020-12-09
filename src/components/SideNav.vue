@@ -100,8 +100,9 @@
 
   .side-nav {
     text-align: left;
+    margin-top: 6rem;
     padding-left: 2rem;
-
+    
     @include mq(lg) {
       padding-left: 12rem;
     }

@@ -2,7 +2,7 @@
   <div id="home">
       <Header />
 
-<el-container style="height: 900px; border: 1px solid #eee;" class="wrapper">
+<el-container style="height: 900px;" class="wrapper">
           <SideNav />
     <el-container>
       <el-main>
@@ -36,7 +36,7 @@
 
   #home {
     .wrapper {
-padding-top: 16rem;
+padding-top: 16rem; 
       @include mq(lg) {
         padding-top: 24rem;
       }
@@ -45,7 +45,7 @@ padding-top: 16rem;
     .side {
       width: 3.6rem;
       @include mq(xl) {
-        width: 20%;
+        width: 24%;
       }
 
     }

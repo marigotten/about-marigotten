@@ -14,15 +14,15 @@
       <el-timeline-item id="kids" timestamp="保育園" placement="top" class="timeline">
         <el-row>
           <el-col :span="24" class="timeline__cover">
-            <span class="iconify" data-icon="twemoji:child-medium-skin-tone" data-inline="false"></span>
+            <span class="iconify" data-icon="twemoji:name-badge" data-inline="false"></span>
           </el-col>
           <el-col :span="24">
             <p>おままごとよりもヒーローごっこに夢中だった。将来の夢はセーラームーンと発表したのをバカにされて号泣。おでこにでっかい切り傷ができたのもこの頃。</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round>#セーラームーン</el-button>
-              <el-button type="success" size="mini" plain round>#カクレンジャー</el-button>
-              <el-button type="success" size="mini" plain round>#サイダーゼリー</el-button>
+              <el-button type="success" size="mini" plain round disabled>#セーラームーン</el-button>
+              <el-button type="success" size="mini" plain round disabled>#カクレンジャー</el-button>
+              <el-button type="success" size="mini" plain round disabled>#サイダーゼリー</el-button>
             </div>
           </el-col>
         </el-row>
@@ -31,7 +31,7 @@
       <el-timeline-item id="elementary" timestamp="小学校" placement="top" class="timeline">
         <el-row>
           <el-col :span="24" class="timeline__cover">
-            <span class="iconify" data-icon="twemoji:name-badge" data-inline="false"></span>
+            <span class="iconify" data-icon="twemoji:child-medium-skin-tone" data-inline="false"></span>
           </el-col>
           <el-col :span="24">
             <p>この頃からお絵かきに目覚める。親戚の漫画コレクションや図鑑を読み漁る日々。</p>
@@ -43,9 +43,9 @@
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:twitter"
                     data-inline="false"></span>ツルモク独身寮</el-button>
               </el-link>
-              <el-button type="success" size="mini" plain round>#スラムダンク</el-button>
-              <el-button type="success" size="mini" plain round>#ドラえもん</el-button>
-              <el-button type="success" size="mini" plain round>#GLAY</el-button>
+              <el-button type="success" size="mini" plain round disabled>#スラムダンク</el-button>
+              <el-button type="success" size="mini" plain round disabled>#ドラえもん</el-button>
+              <el-button type="success" size="mini" plain round disabled>#GLAY</el-button>
             </div>
           </el-col>
         </el-row>
@@ -57,13 +57,13 @@
             <span class="iconify" data-icon="twemoji:alien" data-inline="false"></span>
           </el-col>
           <el-col :span="24">
-            <p>ゴトウ、オシャレに目覚める。が、オシャレとはなんなのか手探り状態だったので、上下赤チェックの格好で堂々と街中を歩いたりしていた。オシャレな子はハイスタやアヴリルを聴いていた。</p>
+            <p>オシャレに目覚める。が、オシャレとはなんなのか手探り状態だったので、上下赤チェックの格好で堂々と街中を歩いたりしていた。オシャレな子はハイスタやアヴリルを聴いていた。</p>
             <p>FFⅨと資生堂のCMが好きで、将来はどっちかの会社に入るんだと意気込んでいた。</p>
             <p>初めての告白を経験したのもこの頃。（結果は玉砕）</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round>#RIP SLYME</el-button>
-              <el-button type="success" size="mini" plain round>#うたばん</el-button>
+              <el-button type="success" size="mini" plain round disabled>#RIP SLYME</el-button>
+              <el-button type="success" size="mini" plain round disabled>#うたばん</el-button>
               <el-link class="tag__link" type="success" :underline="false" target="_blank"
                 href="https://youtu.be/FsDzX2YVxNY">
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
@@ -84,7 +84,6 @@
             <p>高校受験に失敗し、滑り止めの私立高校の芸術学科へ入学。</p>
             <p>画材使い放題・美術室入り浸り放題という、今思うとありがたすぎる環境でひたすら制作に勤しむ。</p>
             <p>小中と違い好きな時間に好きなだけ食べれるので、ブクブク太りだしたのもこの頃。ダイエットとの付き合いの始まり。</p>
-            <p>FFⅨと資生堂のCMが好きで、将来はどっちかの会社に入るんだと意気込んでいた。</p>
             <p>初めて東京に来たのも高校生のとき。修学旅行も東京で、当時オープンしたばかりの六本木ヒルズでトイカメラセットを買った思い出。</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
@@ -99,6 +98,7 @@
               </el-link>
               <el-button type="success" size="mini" plain round>#LINKIN PARK</el-button>
               <el-button type="success" size="mini" plain round>#GO!GO!7188</el-button>
+              <el-button type="success" size="mini" plain round>#the MATRIX series</el-button>
             </div>
           </el-col>
         </el-row>
@@ -123,7 +123,7 @@
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
                     data-inline="false"></span>スーパーカー</el-button>
               </el-link>
-              <el-button type="success" size="mini" plain round disabled>#basebment jaxx</el-button>
+              <el-button type="success" size="mini" plain round disabled>#kitsune</el-button>
               <el-button type="success" size="mini" plain round disabled>#ポッドキャスト</el-button>
 
               <el-link class="tag__link" type="success" :underline="false" target="_blank"
@@ -188,10 +188,21 @@
                   data-icon="octicon:link-external-24" data-inline="false"></span></a></p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round disabled>#バックミンスター・フラー</el-button>
-              <el-button type="success" size="mini" plain round disabled>#まっちゃん</el-button>
-              <el-button type="success" size="mini" plain round disabled>#佐藤雅彦</el-button>
 
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://www.google.com/search?q=%E3%83%90%E3%83%83%E3%82%AF%E3%83%9F%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%95%E3%83%A9%E3%83%BC&rlz=1C5CHFA_enJP825JP825&sxsrf=ALeKk010WiwJ8e3UHGPw7HWXUZAVvWLkjw:1607508417315&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiWzL_B08DtAhXIFogKHaqqAgwQ_AUoAXoECCkQAw&biw=1883&bih=928">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="openmoji:space-shuttle"
+                    data-inline="false"></span>バックミンスター・フラー</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://mitsurutajima.com/2012/03/18/%E8%AC%8E%E3%81%AE%E6%BF%80%E5%AE%89%E5%B1%85%E9%85%92%E5%B1%8B%E3%82%B7%E3%83%B3%E3%82%B8%E3%82%B1%E3%83%BC%E3%83%88%E5%96%B6%E6%A5%AD%E6%8B%A0%E7%82%B9%E4%B8%80%E8%A6%A7/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="openmoji:space-shuttle"
+                    data-inline="false"></span>居酒屋 小松</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank" href="https://euphrates.jp/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:puzzle-piece"
+                    data-inline="false"></span>佐藤雅彦</el-button>
+              </el-link>
               <el-link class="tag__link" type="success" :underline="false" target="_blank" href="http://www.haluta.jp/">
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:chair"
                     data-inline="false"></span>haluta</el-button>
@@ -225,10 +236,20 @@
             <p>友人のデザイナーやプログラマーの勧めもあり、WEB制作の勉強を始める。そしてハマる。</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>このころの胸熱アイテム</h5>
-              <el-button type="success" size="mini" plain round disabled>#ラジオ</el-button>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://audee.jp/news/show/73875">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:radio"
+                    data-inline="false"></span>有吉弘行のSUNDAY NIGHT DREAMER</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="http://makihirochi.com/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:twitter"
+                    data-inline="false"></span>マキヒロチ</el-button>
+              </el-link>
               <el-button type="success" size="mini" plain round disabled>#ピラティス</el-button>
               <el-button type="success" size="mini" plain round disabled>#筋膜リリース</el-button>
               <el-button type="success" size="mini" plain round disabled>#皇居周り</el-button>
+              <el-button type="success" size="mini" plain round disabled>#IPA</el-button>
             </div>
           </el-col>
         </el-row>
@@ -248,10 +269,32 @@
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>最近の胸熱アイテム</h5>
               <el-button type="success" size="mini" plain round disabled>#WebGL</el-button>
-              <el-button type="success" size="mini" plain round disabled>#イカとタコ</el-button>
-              <el-button type="success" size="mini" plain round disabled>#一冊の本</el-button>
-              <el-button type="success" size="mini" plain round disabled>#田中みな実のあったかタイム</el-button>
               <el-button type="success" size="mini" plain round disabled>#夜の永田町</el-button>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://www.msz.co.jp/book/detail/08757/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:octopus"
+                    data-inline="false"></span>タコの心身問題</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://dot.asahi.com/1satsu/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:open-book"
+                    data-inline="false"></span>一冊の本</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://www.tbsradio.jp/atataka/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:radio"
+                    data-inline="false"></span>田中みな実のあったかタイム</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://www.tbsradio.jp/ht/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:radio"
+                    data-inline="false"></span>ハライチのターン</el-button>
+              </el-link>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://youtu.be/-ewm56D9DzY">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:fire"
+                    data-inline="false"></span>煉獄さん。。</el-button>
+              </el-link>
             </div>
           </el-col>
         </el-row>
