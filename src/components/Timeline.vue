@@ -69,7 +69,7 @@
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:youtube"
                     data-inline="false"></span>資生堂 UV WHITE</el-button>
               </el-link>
-              <el-button type="success" size="mini" plain round>#もののけ姫</el-button>
+              <el-button type="success" size="mini" plain round disabled>#もののけ姫</el-button>
             </div>
           </el-col>
         </el-row>
@@ -96,9 +96,9 @@
                     data-icon="twemoji:man-in-lotus-position-medium-skin-tone" data-inline="false"></span>横尾忠則
                 </el-button>
               </el-link>
-              <el-button type="success" size="mini" plain round>#LINKIN PARK</el-button>
-              <el-button type="success" size="mini" plain round>#GO!GO!7188</el-button>
-              <el-button type="success" size="mini" plain round>#the MATRIX series</el-button>
+              <el-button type="success" size="mini" plain round disabled>#LINKIN PARK</el-button>
+              <el-button type="success" size="mini" plain round disabled>#GO!GO!7188</el-button>
+              <el-button type="success" size="mini" plain round disabled>#the MATRIX series</el-button>
             </div>
           </el-col>
         </el-row>
@@ -271,6 +271,10 @@
               <el-button type="success" size="mini" plain round disabled>#WebGL</el-button>
               <el-button type="success" size="mini" plain round disabled>#GLSL</el-button>
               <el-button type="success" size="mini" plain round disabled>#夜の永田町</el-button>
+              <el-link class="tag__link" type="success" :underline="false" target="_blank"
+                href="https://www.perimetron.jp/">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:sparkler" data-inline="false"></span>perimetron</el-button>
+              </el-link>
               <el-link class="tag__link" type="success" :underline="false" target="_blank"
                 href="https://www.msz.co.jp/book/detail/08757/">
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:octopus"
