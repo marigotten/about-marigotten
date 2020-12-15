@@ -6,7 +6,7 @@
           <span class="iconify" data-icon="twemoji:baby" data-inline="false"></span>
         </div>
         <div>
-          <p>宮崎県宮崎市に生まれる。命名を「マリ」か「マリコ」で迷ったらしいが、国際化社会を見据えて「マリ」と名付けたらしい。</p>
+          <p>九州に生まれる。命名を「マリ」か「マリコ」で迷ったらしいが、国際化社会を見据えて「マリ」と名付けたらしい。</p>
           <p>誕生日が同じ人は高田賢三、パーク・マンサー、グッチ裕三</p>
         </div>
       </el-timeline-item>
@@ -183,7 +183,7 @@
           <el-col :span="24">
             <p>「一度は東京に行かなきゃダメだ」と繰り返していた父の教えが忘れられず、27にして遂に上京を果たす。</p>
             <p>同じ東京なのに、東西や路線ごとにカルチャーが栄えているのが面白いなと思い、古地図や地名に興味が湧きだしたのはこの頃。</p>
-            <p>アートと英語、どちらも使える仕事に就き、大都会の大規模な展覧会に圧倒されるも、刺激的な日々を過ごす。一番印象に残っているのは<a class="text-link" target="_blank"
+            <p>アートと英語、どちらも使える仕事に就き、大都会の大規模な展覧会に圧倒されるも、刺激的な日々を過ごす。一番印象に残っているのは、イギリスの建築集団<a class="text-link" target="_blank"
                 href="https://www.fosterandpartners.com/">Foster + Partners展<span class="iconify"
                   data-icon="octicon:link-external-24" data-inline="false"></span></a></p>
             <div class="tag">
@@ -224,7 +224,7 @@
           <el-col :span="24">
             <p>「もっとお客様と密にコミュニケーションをとりたい！」「別の東京らしさも体感したい」と考えるようになり、自転車メーカーの新事業部立ち上げスタッフの募集を見つけ、転職。</p>
             <img src="../static/ynk.jpg" alt="">
-            <small>職場のあった台東区・谷中。穏やかでゆったりした街</small>
+            <small>職場のあった台東区・谷中で発見した懐かしキャラ。穏やかでゆったりした街</small>
             <p>大学で学んだ英語、モラトリアム時代に磨いたバリスタスキル、生来の好奇心を存分に発揮。</p>
             <img src="../static/bike-tour.jpeg" alt="">
             <small>台湾の自転車工場へ見学に</small>
@@ -265,10 +265,11 @@
             <p>独学でHTMLやCSSを学び、現職へ。</p>
             <p>デザインからコーディング、ライティングまで一任してもらい、手探りながらも充実した日々を過ごす。</p>
             <p>一番好きなのは、アニメーションやエフェクトを加えたり既存ページのコードをより運用しやすく書き換えること。</p>
-            <p>スマホ用ページの実装が主のため、もっと様々なプロジェクトに携わりたいと思い、転職活動中です！</p>
+            <p>スマホ用ページの実装が主のため、もっと様々なプロジェクトに参画したいと思い、転職活動中です！</p>
             <div class="tag">
               <h5><span class="iconify" data-icon="mdi-light:heart" data-inline="false"></span>最近の胸熱アイテム</h5>
               <el-button type="success" size="mini" plain round disabled>#WebGL</el-button>
+              <el-button type="success" size="mini" plain round disabled>#GLSL</el-button>
               <el-button type="success" size="mini" plain round disabled>#夜の永田町</el-button>
               <el-link class="tag__link" type="success" :underline="false" target="_blank"
                 href="https://www.msz.co.jp/book/detail/08757/">
