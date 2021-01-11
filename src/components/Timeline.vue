@@ -43,7 +43,9 @@
                 <el-button type="success" size="mini" round><span class="iconify" data-icon="logos:twitter"
                     data-inline="false"></span>ツルモク独身寮</el-button>
               </el-link>
-              <el-button type="success" size="mini" plain round disabled>#スラムダンク</el-button>
+              <el-link href="https://www.itplanning.co.jp/" target="_blank" :underline="false" type="success">
+                <el-button type="success" size="mini" round><span class="iconify" data-icon="twemoji:fountain-pen" data-inline="false"></span>スラムダンク</el-button>
+              </el-link>
               <el-button type="success" size="mini" plain round disabled>#ドラえもん</el-button>
               <el-button type="success" size="mini" plain round disabled>#GLAY</el-button>
             </div>
@@ -112,7 +114,7 @@
           <el-col :span="24">
             <p>「手に職を」と思い写真学校へ入学するが、画家への夢を諦めきれず、中退して美術系の予備校へ。</p>
             <p>制作に勤しむも、「アートは学ぶものか？」という思考のループから抜け出せず、一旦美術から距離を置くことに。</p>
-            <p>地元宮崎に戻り、元々好きだった某コーヒーチェーンでバリスタ業務に精を出す。</p>
+            <p>地元に戻り、元々好きだった某コーヒーチェーンでバリスタ業務に精を出す。</p>
             <p>バリスタの腕が上がり、常連さんから「おいしい！」と言ってもらえるのが嬉しかったなぁ。</p>
             <p>休日は近くのライブハウスでロックを聴きまくっていました。</p>
             <div class="tag">

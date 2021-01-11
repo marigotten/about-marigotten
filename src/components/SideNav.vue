@@ -4,7 +4,7 @@
     <li class="side-nav__list">
       <a class="side-nav__item" href="#bakutan">
         <div class="icon-area">
-          <span class="iconify" data-icon="twemoji:baby" data-inline="false"></span>
+          <span class="iconify" data-icon="twemoji:child-medium-skin-tone" data-inline="false"></span>
         </div>
         <p class="mb-none">爆誕</p>
       </a>
@@ -13,7 +13,7 @@
     <li class="side-nav__list">
       <a class="side-nav__item" href="#kids">
         <div class="icon-area">
-          <span class="iconify" data-icon="twemoji:child-medium-skin-tone" data-inline="false"></span>
+          <span class="iconify" data-icon="twemoji:baby" data-inline="false"></span>
         </div>
         <p class="mb-none">保育園</p>
       </a>
